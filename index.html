@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://www.stackhero.io/assets/src/images/servicesLogos/mysql.svg?9998c0bf">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Tecnica</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header id="MySQL_doc">MySQL Doc</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduccion">Introduccion</a></li>
+            <li><a class="nav-link" href="#MySQL">MySQL</a></li>
+            <li><a class="nav-link" href="#Beneficios">Beneficios</a></li>
+            <li><a class="nav-link" href="#DDL">DDL</a></li>
+            <li><a class="nav-link" href="#DML">DML</a></li>
+            <li><a class="nav-link" href="#Abrir_mysql">Abrir MySQL</a></li>
+            <li><a class="nav-link" href="#Ver_BD">Ver BD</a></li>
+            <li><a class="nav-link" href="#Crear_BD">Crear BD</a></li>
+            <li><a class="nav-link" href="#Introducir_datos">Introducir Datos</a></li>
+            <li><a class="nav-link" href="#Mostrar_datos">Mostrar Datos</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="Introduccion" class="main-section">
+            <header>Introduccion</header>
+            <article>
+                <img src="https://cdn-icons-png.flaticon.com/512/2612/2612467.png" alt="base de datos" class="imagen">
+                <p>
+                    Una base de datos (cuya abreviatura es BD) es una entidad en la 
+                    cual se pueden almacenar datos de manera estructurada, con la 
+                    menor redundancia posible. Diferentes programas y diferentes 
+                    usuarios deben poder utilizar estos datos. Por lo tanto, el 
+                    concepto de base de datos generalmente está relacionado con 
+                    el de red ya que se debe poder compartir esta información. 
+                    De allí el término base.
+                </p>
+            </article>
+        </section>
+        <section id="MySQL" class="main-section">
+            <header>MySQL</header>
+            <article>
+                <img src="https://1000marcas.net/wp-content/uploads/2020/11/MySQL-logo.png" alt="MySQL Logo" class="imagen">
+                <p>
+                    MySQL es el sistema de gestión de bases de datos relacional más
+                     extendido en la actualidad al estar basada en código abierto. 
+                     Desarrollado originalmente por MySQL AB, fue adquirida por Sun 
+                     MicroSystems en 2008 y esta su vez comprada por Oracle Corporation 
+                     en 2010, la cual ya era dueña de un motor propio InnoDB para MySQL.
+                    <br><br>
+                    MySQL es un sistema de gestión de bases de datos que cuenta con una 
+                    doble licencia. Por una parte es de código abierto, pero por otra, 
+                    cuenta con una versión comercial gestionada por la compañía Oracle.
+                    <br><br>
+                    Las versiones Enterprise, diseñadas para aquellas empresas que quieran 
+                    incorporarlo en productos privativos, incluyen productos o servicios 
+                    adicionales tales como herramientas de monitorización y asistencia 
+                    técnica oficial. <br>
+                    <a class="ver-mas" href="https://openwebinars.net/blog/que-es-mysql/">ver más</a>
+                </p>
+            </article>
+        </section>
+        <section id="Beneficios" class="main-section">
+            <header>Beneficios</header>
+            <article>
+                <p>
+                    MySQL presenta algunas ventajas que lo hacen muy interesante para los 
+                    desarrolladores. La más evidente es que trabaja con bases de datos 
+                    relacionales, es decir, utiliza tablas múltiples que se interconectan 
+                    entre sí para almacenar la información y organizarla correctamente.
+
+                    Al ser basada en código abierto es fácilmente accesible y la inmensa 
+                    mayoría de programadores que trabajan en desarrollo web han pasado usar 
+                    MySQL en alguno de sus proyectos porque al estar ampliamente extendido 
+                    cuenta además con una ingente comunidad que ofrece soporte a otros 
+                    usuarios. Pero estas no son las únicas características como veremos 
+                    a continuación:
+                </p>
+                <ol>
+                    <li>Arquitectura Cliente y Servidor</li>
+                    <li>Compatibilidad con SQL</li>
+                    <li>Vistas</li>
+                    <li>Procedimientos almacenados</li>
+                    <li>Transacciones</li>
+                </ol>
+                <a class="ver-mas" href="https://openwebinars.net/blog/que-es-mysql/">ver más</a>
+            </article>
+        </section>
+        <section id="DDL" class="main-section">
+            <header>DDL</header>
+            <article>
+                <img src="https://3.bp.blogspot.com/-7FbR-PNLOBY/WOgs0SskcgI/AAAAAAAAACc/KokgYlAo7PU21--0d9VJyQkFE2GVbaL1wCEw/s1600/DDLSentencias.png" alt="" class="imagen">
+                <p>
+                    Un lenguaje de definición de datos (Data Definition Language, DDL por sus siglas
+                     en inglés) es un lenguaje proporcionado por el sistema de gestión de base de datos
+                      que permite a los usuarios de la misma llevar a cabo las tareas de definición de
+                       las estructuras que almacenarán los datos así como de los procedimientos o 
+                       funciones que permitan consultarlos.
+                </p>
+                <article class="codigo">
+                    <code>
+                        <i class="fa-thin fa-arrow-right-long-to-line"></i>CREATE TABLE: Crear una tabla<br>
+                        <i class="fa-thin fa-arrow-right-long-to-line"></i>SHOW TABLES: mostrar tablas<br>
+                        <i class="fa-thin fa-arrow-right-long-to-line"></i>DROP TABLE [nombre de tabla]: Borrar tabla<br>
+                        <i class="fa-thin fa-arrow-right-long-to-line"></i>DESCRIBE [nombre de tabla] Mostrar estructura de una tabla<br>
+                    </code>
+                </article>
+                <br>
+                <a href="http://cidecame.uaeh.edu.mx/lcc/mapa/PROYECTO/libro14/52_lenguaje_de_definicin_de_datos_ddl.html">ver más</a>
+            </article>
+        </section>
+        <section id="DML" class="main-section">
+            <header>DML</header>
+            <article>
+                <img src="http://1.bp.blogspot.com/-Fv8mseWWD40/VUVHCTCs0aI/AAAAAAAAAbo/bQBdgS9gdcQ/s1600/DMLSentencias.png" alt="" class="imagen">
+                <p>
+                    Lenguaje de Manipulación de Datos (Data Manipulation Language, DML) es un idioma proporcionado por los sistemas gestores de bases 
+                    de datos que permite a los usuarios de la misma llevar a cabo las tareas de consulta o modificación de los datos contenidos en las
+                     Bases de Datos del Sistema Gestor de Bases de Datos. El lenguaje de manipulación de datos más popular hoy día es SQL, usado para 
+                     recuperar y manipular datos en una base de datos relacional. Otros ejemplos de DML son los usados por bases de datos IMS/DL1, CODASYL u otras.
+                </p>
+                <article class="codigo">
+                    <code>
+                        <span class="bold">Select</span>: SELECT "nombre_columna" FROM "nombre_tabla";<br>
+                        <br>
+                        <span class="bold">Insert</span>: INSERT INTO "nombre_tabla" ("columna1", "columna2", ...)VALUES ("valor1", "valor2", ...);<br>
+                        <br>
+                        <span class="bold">Update</span>: UPDATE "nombre_tabla"SET "columna_1" = [nuevo valor] WHERE "condición";<br>
+                        <br>
+                        <span class="bold">Delete</span>: DELETE FROM "nombre_tabla" WHERE "condición";
+                    </code>
+                </article>
+                <br>
+                <a href="http://cidecame.uaeh.edu.mx/lcc/mapa/PROYECTO/libro14/52_lenguaje_de_definicin_de_datos_ddl.html">ver más</a>
+            </article>
+        </section>
+        <section id="Abrir_mysql" class="main-section">
+            <header>Abrir MySQL</header>
+            <article>
+                <p>
+                    MySQL tiene un programa cliente, que se llama con el mismo nombre de la base de datos (mysql),
+                     que sirve para gestionar la base datos por línea de comandos. Ese programa está disponible en
+                      cualquier instalación de MySQL y lo tendremos que usar para conectarnos por línea de comandos.
+                </p>
+                <article class="codigo">
+                    <code>cd C:\Program Files\MySQL\MySQL Server 8.0\bin <br>
+                        mysql -u root -p <br>Ingresar su contraseña
+                    </code>
+                </article>
+            </article>
+        </section>
+        <section id="Ver_BD" class="main-section">
+            <header>Ver BD</header>
+            <article>
+                <img src="https://i0.wp.com/diarioprogramador.com/wp-content/uploads/2021/12/03-mysql-comandos-basicos-en-terminal.jpg?resize=362%2C375" alt="show databases" class="imagen">
+                <p>
+                    Para poder obtener la información de nuestras bases de datos, deberemos escribir los siguiente 
+                    estando dentro de nuestro servidor de MySQL
+                </p>
+                <article class="codigo">
+                <code>show databases;</code>
+                </article>
+            </article>
+        </section>
+        <section id="Crear_BD" class="main-section">
+            <header>Crear BD</header>
+            <article>
+                <img src="https://phoenixnap.com/kb/wp-content/uploads/2021/04/create-database-mysql.png" alt="create database" class="imagen">
+                <p>
+                    Para crear una base de datos se debe tener en cuenta la siguiente sintaxis:
+                </p>
+                <article class="codigo">
+                    <code>create database [nombre de la base de datos nueva];</code>
+                    </article>
+            </article>
+        </section>
+        <section id="Introducir_datos" class="main-section">
+            <header>Introducir datos</header>
+            <article>
+                <img src="https://i.stack.imgur.com/wnQoQ.gif" alt="insert" class="imagen">
+                <p>
+                    Como lo vimos en el LMD, para introducir datos debemos seguir los siguientes pasos
+                </p>
+                <article class="codigo">
+                    <code>use database [Nombre de la base de datos]; <br>
+                    create table [nombre tabla]; <br>
+                    insert into "nombre_tabla"("columnan"...) values ("valor n"...);
+                </code>
+                    </article>
+            </article>
+        </section>
+        <section id="Mostrar_datos" class="main-section">
+            <header>Mostrar datos</header>
+            <article>
+                <img src="https://www.tutorialesprogramacionya.com/mysqlya/temarios/imagentema/foto036.jpg" alt="show tables" class="imagen">
+                <p>
+                    Finalmente para mostrar datos solo bastará con hacer un select
+                </p><article class="codigo">
+                    <code>select*from "nombre tabla";</code>
+                    </article>
+            </article>
+        </section>
+
+    </main>
+</body>
+</html>

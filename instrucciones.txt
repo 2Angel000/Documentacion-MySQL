@@ -1,0 +1,49 @@
+Puedes ver un elemento main con su correspondiente id="main-doc", 
+que contiene el contenido principal de la página (documentación técnica)
+
+Dentro del elemento #main-doc, puedes ver varios elementos de sección, 
+cada uno con una clase de main-section. Debe haber un mínimo de cinco
+
+El primer elemento dentro de cada .main-section debe ser un elemento de 
+cabecera, que contiene un texto que describe el tema de esa sección.
+
+Cada elemento de sección con la clase main-section debe tener también 
+un id que se corresponda con el texto de cada cabecera que contenga. 
+Los espacios deben sustituirse por guiones bajos (por ejemplo, la 
+sección que contiene el encabezado "JavaScript y Java" debe tener un 
+id="JavaScript_y_Java")
+
+Los elementos .main-section deben contener al menos diez elementos p 
+en total (no cada uno)
+
+Los elementos de la sección .main deben contener al menos cinco elementos 
+de código en total (no cada uno) Los elementos .main-section deben contener 
+al menos cinco elementos li en total (no cada uno)
+
+Puedes ver un elemento nav con su correspondiente id="navbar"
+
+El elemento navbar debe contener un elemento de cabecera que 
+contenga un texto que describa el tema de la documentación técnica
+
+Además, la navbar debe contener elementos de enlace (a) con la clase 
+nav-link. Debe haber uno por cada elemento con la clase main-section
+
+El elemento de cabecera de la #navbar debe ir antes de cualquier elemento 
+de enlace (a) de la navbar
+
+Cada elemento con la clase nav-link debe contener un texto que se 
+corresponda con el texto de cabecera dentro de cada sección 
+(por ejemplo, si tienes una sección/cabecera "Hola mundo", 
+tu navbar debe tener un elemento que contenga el texto "Hola mundo")
+
+Cuando se hace clic en un elemento de la barra de navegación, 
+la página debe navegar a la sección correspondiente del elemento
+ #main-doc (por ejemplo, si se hace clic en un elemento .nav-link 
+ que contiene el texto "Hola mundo", la página navega a un elemento
+  de sección con ese id, y contiene la cabecera correspondiente)
+
+En los dispositivos de tamaño normal (portátiles, ordenadores de 
+sobremesa), el elemento con id="navbar" debe mostrarse en la parte 
+izquierda de la pantalla y ser siempre visible para el usuario
+
+Su documentación técnica debe utilizar al menos una consulta de medios
